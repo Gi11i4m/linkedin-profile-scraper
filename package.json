@@ -1,0 +1,20 @@
+{
+  "name": "linkedin-profile-scraper",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "repository": "git@github.com:Gi11i4m/linkedin-profile-scraper.git",
+  "author": "Gilliam <gi11i4m@gmail.com>",
+  "license": "MIT",
+  "packageManager": "yarn@3.2.3",
+  "scripts": {
+    "start": "playwright test"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.23",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "@playwright/test": "^1.26.1"
+  }
+}
